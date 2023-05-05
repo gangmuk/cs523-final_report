@@ -1,0 +1,38 @@
+\section{Case study}
+\label{sec:case_study}
+\subsection*{Patterns of multi-controller failure cases}
+There are different categories of failures existing in Kubernetes. Inherently, it is ambiguous to classify such failure cases as bug. Each controller is working as it is supposed to do and clearly there is bug in its logic if you look them individually. Some of answers to reported github issues was that they are aware of or they admit the issue but they ended up not fixing it, saying it is their design choice or there is no clear way to patch it. It is because often the clear solution does not exist not because Kubernetes community constantly procrastinate or neglect them. Most of problems we are presenting in this paper could be prevented if you know it will happen before you apply them to your cluster. For the example in D1 failure case, if you had known that Deployment configuration and Scheduler policy are contradictorial each other, you would have not configured in such self-destroying way. However, there are several reasons that it is still not trivial to avoid this type of failures. The first reason is scalability. The nubmer of pods could be easily over a thousand and the number of services deployed in the cluster could be easily over a hundred. To configure this scale of Kubernetes cluster having different applications running, you may need to manage a large number of configuration yaml files for each deployment, nodes, hpa, schedulers, etc. 
+
+\begin{table*}[t]
+    \centering
+    \begin{tabular}{c c c c c c}
+    \hline
+        Case & Categories & Controllers & Properties & Behaviors  \\ 
+        \hline
+        D1(R) & Conflicted config & Deployment + Kubelet & Liveness & Scheduling and evicting pods infinitely  \\ 
+        H1(R) & Lack of context & HPA + App CPU changes & Safety & HPA is agnostic to app  \\ 
+        H2(R) & Conflicted config & HPA + Deployment & Safety & Sub-optimal scaling behavior  \\ 
+        H3(R) & Imperfect knowledge & HPA + Node reachability & Safety & Semantically wrong avg CPU util (reachability vs healthiness)  \\ 
+        S1 & Conflicted config & Scheduler + Descheduler & Liveness & High utilization(scheduler) <-> Low utilization(descheduler) \\ 
+        S2(R) & Conflicted config & Scheduler + Descheduler & Liveness & Deployment preference <-> Violation in maxSkew \\ 
+        S3(R) & Conflicted config & Scheduler & Liveness & Two pod spread constraints are conflicted each other  \\ 
+        S5 & Conflicted config & Scheduler & Safety & Pods are scheduled to one node, because of lopsided preference  \\ 
+        S6(R) & Lack of feature & Scheduler & Safety & Scheduler is not able to adjust skewed placement  \\ 
+        S7(R) & Lack of context & Scheduler + Kubelet & Liveness & Scheduler includes NotReady node for maxSkew calculation  \\ 
+        \hline
+    \end{tabular}
+    \caption{}
+    \label{table:summary}
+\end{table*}
+
+\subsection*{Detailed examples}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.4\textwidth]{figure/num_pod.pdf}
+    \caption{Number of pods over time for four failure cases.}
+    \label{fig:num_pod}
+\end{figure}
+
+
+\subsection*{Observation 1}

@@ -30,22 +30,18 @@ The repo includes a makefile so you can directly `make` the PDF.
   - ...
 
 ## Structure
-1. Introduction
-2. Background
+1. Abstract
+2. Introduction
+3. Background
    1. Cluster management system
       1. What is Kubernetes
          1. Reconciliation
          2. Controller
-            1. Kubelet
-            2. Deployment
-            3. Scheduler
-            4. HPA
-            5. Descheduler
-            6. Api-server
-            7. etcd
-3. 
+            1. Kubelet / Deployment / Scheduler / HPA / Descheduler
+         3. Api-server
+         4. etcd
 4. Case study (reproduction and anaylsis)
-   1. Common patterns of failure cases
+   1. Summarize failure cases + common patterns of failure cases
    2. Detailed examples
       1. Description
       2. Some plots
@@ -56,11 +52,6 @@ The repo includes a makefile so you can directly `make` the PDF.
    3. Model checking
    4. Formal verification
    5. Statistical model
-   6. Monitoring system
-      1. Distributed tracing
-         1. Jaegur, Prometheus, ...
-      2. What are other monitoring systems?
-   7. 
 6. Discussion and Future work
    1. Discussion
       1. Scalability
