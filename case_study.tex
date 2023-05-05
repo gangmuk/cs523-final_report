@@ -13,6 +13,13 @@ If it is evident that the system could fall into already known precarious status
 It is inherently ambiguous to classify such failure cases as bug. Each controller is working as it is supposed to do and clearly there is no bug in its logic if you look them individually. Some of answers against reported github issues was that developers in Kubernetes community maintaining the controller are aware of or admit that is the issue but they ended up not fixing or not being able to fix it while saying it is their design choice or there is no clear way to patch it. The clear solution does not exist since multiple parties in the system are involved and tangled each other. It is not because Kubernetes community constantly procrastinates or neglects them. 
 Most of these problems we are presenting in this paper could be prevented if you know it will happen before you apply them to your cluster. For the example in D1 failure case, if you had known that Deployment configuration and Scheduler policy are contradictorial each other, you would have not configured in such self-destroying way. However, there are several reasons that it is still not trivial to avoid this type of failures. The first reason is scalability. The nubmer of pods could be easily over a thousand and the number of services deployed in the cluster could be easily over a hundred. To configure this scale of Kubernetes cluster having different applications running, you may need to manage a large number of configuration yaml files for each deployment, nodes, hpa, schedulers, etc. In this scale and complexity, it is challenging to make all controllers always in a coordinated manner in the cluster-wise level. The second reason is that in a large scale cluster some failrues are not noticeable and slowly gnawing the cluster's resources. For example, in S1 failure case, node utilization on average could stay within some range in the half way of scheduler config and deschduler config. It is possible that the cluster resource utilization looks stable even though what is happening beind is deschduler keeping evicting pods from high utilization node and scheduler placing pods in low utilization node makig the utilization high again. The third reasons is that semantically contradictorial configurations does not mean it will always lead to failrues. Many of these problems are triggered in a specific number of nodes and pods. 
 
+\paragraph*{Common patterns in multi-controller failure cases}
+Table.1 summarizes the failure cases we analyzed and reproduced in this paper. 10 failure cases are analyzed and 8 out of 10 are reproduced in Kubernetes cluster. KinD cluster was used for failure reproduction.
+
+\subparagraph*{Reproduced in a small scale} The first common pattern is all of failure cases presented in this paper does not need large scale cluster to reproduce them. Maximum number of nodes and pods used for reproduction are 3 and 6 respectively. It implies that they are substances of large scale cluster. When building testing tool or verification program, this observation can be leveraged to make their algorithm more efficient by reducing search space it needs to explore.
+
+\subparagraph*{}
+
 \begin{table*}[t]
     \centering
     \begin{tabular}{c c c c c c}
@@ -31,11 +38,9 @@ Most of these problems we are presenting in this paper could be prevented if you
         S7(R) & Lack of context & Scheduler + Kubelet & Liveness & Scheduler includes NotReady node for maxSkew calculation  \\ 
         \hline
     \end{tabular}
-    \caption{}
+    \caption{Summary of multi-controller failure cases. Reproduced cases are marked with (R).}
     \label{table:summary}
 \end{table*}
-
-\subsection*{Detailed examples}
 
 \begin{figure}[h]
     \centering

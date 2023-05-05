@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.1)  5 MAY 2023 12:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.1)  5 MAY 2023 14:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -961,17 +961,20 @@ local/texlive/2023/texmf-dist/fonts/enc/dvips/libertine/lbtn_25tcsq.enc}
 
 {/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertine/lbtn_ki75ao.enc}{
 /usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertine/lbtn_7grukw.enc}]
-Overfull \hbox (58.339pt too wide) in paragraph at lines 18--34
+Overfull \hbox (58.339pt too wide) in paragraph at lines 22--38
  [][] 
  []
 
 <figure/num_pod.pdf, id=60, 446.66875pt x 431.6125pt>
 File: figure/num_pod.pdf Graphic file (type pdf)
 <use figure/num_pod.pdf>
-Package pdftex.def Info: figure/num_pod.pdf  used on input line 42.
+Package pdftex.def Info: figure/num_pod.pdf  used on input line 44.
 (pdftex.def)             Requested size: 202.3529pt x 195.53441pt.
 
-Class acmart Warning: A possible image without description on input line 45.
+Class acmart Warning: A possible image without description on input line 47.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 ) (./related_work.tex) (./discussion.tex) (./conclusion.tex) (./metadata.tex)
 (./paper.bbl
@@ -992,14 +995,14 @@ LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
 [2.2{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertine/lbtn_ncsllp.e
 nc} <./figure/num_pod.pdf>] [3.3] (./paper.aux)
 Package rerunfilecheck Info: File `paper.out' has not changed.
-(rerunfilecheck)             Checksum: D4F8D2C7176D36F187412E91D73B3A25;937.
+(rerunfilecheck)             Checksum: 2BA14903A11C5BB454B9D1829DBA277E;937.
  ) 
 Here is how much of TeX's memory you used:
- 20152 strings out of 476025
- 323975 string characters out of 5790018
+ 20165 strings out of 476025
+ 324295 string characters out of 5790018
  1880388 words of memory out of 5000000
  39799 multiletter control sequences out of 15000+600000
- 622560 words of font info for 230 fonts, out of 8000000 for 9000
+ 623867 words of font info for 238 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
  90i,12n,131p,1677b,553s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/libertine/LinBiolinumT
@@ -1008,10 +1011,10 @@ ineT.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/libertine/LinLi
 bertineTB.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/libertine/
 LinLibertineTBI.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/libe
 rtine/LinLibertineTI.pfb>
-Output written on paper.pdf (3 pages, 384057 bytes).
+Output written on paper.pdf (3 pages, 385832 bytes).
 PDF statistics:
- 144 PDF objects out of 1000 (max. 8388607)
- 114 compressed objects within 2 object streams
- 34 named destinations out of 1000 (max. 500000)
+ 145 PDF objects out of 1000 (max. 8388607)
+ 115 compressed objects within 2 object streams
+ 35 named destinations out of 1000 (max. 500000)
  57434 words of extra memory for PDF output out of 61914 (max. 10000000)
 
