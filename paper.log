@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.1)  3 MAY 2023 15:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.1)  5 MAY 2023 02:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -949,20 +949,26 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/it' will be
 (Font)              scaled to size 10.0pt on input line 6.
 ) (./case_study.tex
-Overfull \hbox (58.339pt too wide) in paragraph at lines 8--24
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1.1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/us
+r/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertine/lbtn_nh77jq.enc}{/usr
+/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}{/usr/
+local/texlive/2023/texmf-dist/fonts/enc/dvips/libertine/lbtn_25tcsq.enc}
+
+{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertine/lbtn_ki75ao.enc}]
+
+Overfull \hbox (58.339pt too wide) in paragraph at lines 15--31
  [][] 
  []
 
-<figure/num_pod.pdf, id=43, 446.66875pt x 431.6125pt>
+<figure/num_pod.pdf, id=59, 446.66875pt x 431.6125pt>
 File: figure/num_pod.pdf Graphic file (type pdf)
 <use figure/num_pod.pdf>
-Package pdftex.def Info: figure/num_pod.pdf  used on input line 30.
+Package pdftex.def Info: figure/num_pod.pdf  used on input line 39.
 (pdftex.def)             Requested size: 202.3529pt x 195.53441pt.
 
-Class acmart Warning: A possible image without description on input line 33.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
+Class acmart Warning: A possible image without description on input line 42.
 
 ) (./related_work.tex) (./discussion.tex) (./conclusion.tex) (./metadata.tex)
 (./paper.bbl
@@ -978,39 +984,32 @@ Class acmart Warning: Some images may lack descriptions.
 Package balance Warning: You have called \balance in second column
 (balance)                Columns might not be balanced.
 
-[1.1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr
-/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertine/lbtn_nh77jq.enc}{/usr/
-local/texlive/2023/texmf-dist/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}{/usr/l
-ocal/texlive/2023/texmf-dist/fonts/enc/dvips/libertine/lbtn_25tcsq.enc}
-
-{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertine/lbtn_ki75ao.enc}{
-/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertine/lbtn_ncsllp.enc}{/
-usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertine/lbtn_7grukw.enc} <.
-/figure/num_pod.pdf>]
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
 (Font)              scaled to size 8.0pt on input line 33.
- [2.2] (./paper.aux)
+[2.2{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertine/lbtn_ncsllp.e
+nc}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertine/lbtn_7grukw.en
+c} <./figure/num_pod.pdf>] [3.3] (./paper.aux)
 Package rerunfilecheck Info: File `paper.out' has not changed.
-(rerunfilecheck)             Checksum: 65F6B1F290270E0325C78E4A3B216C2B;937.
+(rerunfilecheck)             Checksum: D4F8D2C7176D36F187412E91D73B3A25;937.
  ) 
 Here is how much of TeX's memory you used:
- 20093 strings out of 476025
- 322543 string characters out of 5790018
+ 20127 strings out of 476025
+ 323315 string characters out of 5790018
  1878388 words of memory out of 5000000
- 39795 multiletter control sequences out of 15000+600000
- 612286 words of font info for 196 fonts, out of 8000000 for 9000
+ 39797 multiletter control sequences out of 15000+600000
+ 615041 words of font info for 215 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 90i,12n,131p,1521b,553s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,12n,131p,2350b,553s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/libertine/LinBiolinumT
 .pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/libertine/LinLibert
 ineT.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/libertine/LinLi
 bertineTB.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/libertine/
 LinLibertineTBI.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/libe
 rtine/LinLibertineTI.pfb>
-Output written on paper.pdf (2 pages, 375219 bytes).
+Output written on paper.pdf (3 pages, 382274 bytes).
 PDF statistics:
- 136 PDF objects out of 1000 (max. 8388607)
- 107 compressed objects within 2 object streams
- 30 named destinations out of 1000 (max. 500000)
+ 144 PDF objects out of 1000 (max. 8388607)
+ 114 compressed objects within 2 object streams
+ 34 named destinations out of 1000 (max. 500000)
  53338 words of extra memory for PDF output out of 61914 (max. 10000000)
 
