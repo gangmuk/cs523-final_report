@@ -3,7 +3,6 @@
 \bibitem{Dijkstra:SOSP:1967}
 {\sc Dijkstra, E.~W.}
 \newblock {The Structure of the ``THE'' Multiprogramming System}.
-\newblock In {\em Proceedings of the 1st ACM Symposium on Operating System
-  Principles (SOSP'67)\/} (Oct. 1967).
+\newblock In {\em Proceedings of the 1st ACM Symposium on Operating System Principles (SOSP'67)\/} (Oct. 1967).
 
 \end{thebibliography}
