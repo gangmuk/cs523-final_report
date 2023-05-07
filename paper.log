@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.1)  7 MAY 2023 13:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.1)  7 MAY 2023 16:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -699,7 +699,6 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 Package hyperref Info: Link coloring ON on input line 8.
- (./paper.out) (./paper.out)
 \@outlinefile=\write4
 \openout4 = `paper.out'.
 
@@ -814,21 +813,45 @@ Overfull \hbox (58.339pt too wide) in paragraph at lines 6--22
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
 (Font)              scaled to size 8.0pt on input line 65.
  [2.2] [3.3]
-<figure/num_pod.pdf, id=80, 446.66875pt x 431.6125pt>
+<figure/num_pod.pdf, id=48, 446.66875pt x 431.6125pt>
 File: figure/num_pod.pdf Graphic file (type pdf)
 <use figure/num_pod.pdf>
-Package pdftex.def Info: figure/num_pod.pdf  used on input line 82.
+Package pdftex.def Info: figure/num_pod.pdf  used on input line 91.
 (pdftex.def)             Requested size: 202.3529pt x 195.53441pt.
 
 
-Class acmart Warning: A possible image without description on input line 85.
+Class acmart Warning: A possible image without description on input line 94.
 
-) (./related_work.tex) (./discussion.tex) (./conclusion.tex) (./metadata.tex) (./paper.bbl
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/sc' will be
-(Font)              scaled to size 8.0pt on input line 4.
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
-(Font)              scaled to size 8.0pt on input line 6.
-)
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+) (./related_work.tex
+
+Package natbib Warning: Citation `chaosmesh' on page 4 undefined on input line 6.
+
+
+Package natbib Warning: Citation `chaosmonkey' on page 4 undefined on input line 7.
+
+
+Package natbib Warning: Citation `sieve' on page 4 undefined on input line 10.
+
+) (./discussion.tex
+./discussion.tex:1: Misplaced alignment tab character &.
+<argument> ...orHref {section*.25}Model checking &
+                                                   formal verification
+l.1 \section
+            {Discussion}
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+) (./conclusion.tex) (./metadata.tex) (./paper.bbl)
+
+Package natbib Warning: There were undefined citations.
+
 
 Class acmart Warning: Some images may lack descriptions.
 
@@ -836,23 +859,37 @@ Class acmart Warning: Some images may lack descriptions.
 Package balance Warning: You have called \balance in second column
 (balance)                Columns might not be balanced.
 
-[4.4{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertine/lbtn_ncsllp.enc} <./figure/num_pod.pdf>] (./paper.aux)
-Package rerunfilecheck Info: File `paper.out' has not changed.
-(rerunfilecheck)             Checksum: E7444019E508721F88CAFBFEDFC86048;937.
+[4.4 <./figure/num_pod.pdf>] (./paper.aux
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `paper.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `paper.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  DA2F0A32138E47AB07A199B585797684;937.
  ) 
 Here is how much of TeX's memory you used:
- 20221 strings out of 476025
- 325672 string characters out of 5790018
+ 20212 strings out of 476025
+ 325619 string characters out of 5790018
  1881388 words of memory out of 5000000
- 39799 multiletter control sequences out of 15000+600000
- 628938 words of font info for 269 fonts, out of 8000000 for 9000
+ 39804 multiletter control sequences out of 15000+600000
+ 619461 words of font info for 265 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
  90i,12n,131p,1725b,553s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/libertine/LinBiolinumT.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/libertine/LinLibertineTB.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/libertine/LinLibertineTBI.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/libertine/LinLibertineTI.pfb>
-Output written on paper.pdf (4 pages, 400994 bytes).
+Output written on paper.pdf (4 pages, 378251 bytes).
 PDF statistics:
- 161 PDF objects out of 1000 (max. 8388607)
- 130 compressed objects within 2 object streams
- 44 named destinations out of 1000 (max. 500000)
- 57434 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 124 PDF objects out of 1000 (max. 8388607)
+ 95 compressed objects within 1 object stream
+ 41 named destinations out of 1000 (max. 500000)
+ 53266 words of extra memory for PDF output out of 61914 (max. 10000000)
 

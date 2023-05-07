@@ -1,12 +1,12 @@
 \section{Related Work}
 \label{sec:related_work}
-\paragraph*{A single controller failure study}
-\paragraph*{K8s operator failure}
-\paragraph*{Testing}
+
+
 \paragraph*{Chaos engineering}
-\paragraph*{Model checking}
-\paragraph*{Formal verification}
-\paragraph*{Statistical model}
+Chaos mesh~\cite{chaosmesh}
+Chaos monkey~\cite{chaosmonkey}
 
+\paragraph*{Testing}
+There exists a long history in testing distributed system. Compared to Sieve~\cite{sieve}, multi-controller have two distinctive differences. First, it is Sieve only focused on a single controller failure. It is not able to test cases multi-controllers are involved. Second, the primary goal of Sieve is to find actual bugs in the system with precise fault injection technique. Multi-controller failure cases presented in this paper are not defined as bug even if it exhibits pathological behavior.
 
-The related work of your project~\cite{Dijkstra:SOSP:1967}.
+\paragraph*{Model checking & formal verification}
