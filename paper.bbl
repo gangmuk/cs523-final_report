@@ -1,7 +1,52 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{chaoskube}
+{Chaos kube}, periodically kills random pods in your kubernetes cluster.
+\newblock \url{https://github.com/linki/chaoskube}, 2020.
 
 \bibitem{chaosmesh}
-{Chaos mesh}.
-\newblock \url{https://chaos-mesh.org}, 2020.
+{Chaos mesh}, a solution for system resiliency on kubernetes.
+\newblock \url{https://github.com/chaos-mesh/chaos-mesh}, 2020.
+
+\bibitem{chaosmonkey}
+{Chaos monkey}.
+\newblock \url{https://github.com/Netflix/chaosmonkey}, 2020.
+
+\bibitem{kubemonkey}
+{Kube monkey}, periodically kills random pods in your kubernetes cluster.
+\newblock \url{https://github.com/asobti/kube-monkey}, 2020.
+
+\bibitem{pumba}
+{Pumba}, chaos testing tool for docker.
+\newblock \url{https://github.com/alexei-led/pumba}, 2020.
+
+\bibitem{kubernetes}
+{Kubernetes}.
+\newblock \url{https://kubernetes.io/docs/concepts/overview/}, 2023.
+
+\bibitem{chaosengineering}
+{\sc Basiri, A., Behnam, N., de~Rooij, R., Hochstein, L., Kosewski, L., Reynolds, J., and Rosenthal, C.}
+\newblock Chaos engineering.
+\newblock {\em IEEE Software 33}, 3 (2016), 35--41.
+
+\bibitem{omega}
+{\sc Schwarzkopf, M., Konwinski, A., Abd-El-Malek, M., and Wilkes, J.}
+\newblock Omega: Flexible, scalable schedulers for large compute clusters.
+\newblock In {\em Proceedings of the 8th ACM European Conference on Computer Systems\/} (2013), EuroSys '13.
+
+\bibitem{sieve}
+{\sc Sun, X., Luo, W., Gu, J.~T., Ganesan, A., Alagappan, R., Gasch, M., Suresh, L., and Xu, T.}
+\newblock Automatic reliability testing for cluster management controllers.
+\newblock In {\em 16th USENIX Symposium on Operating Systems Design and Implementation (OSDI 22)\/} (Carlsbad, CA, July 2022), USENIX Association, pp.~143--159.
+
+\bibitem{twine}
+{\sc Tang, C., Yu, K., Veeraraghavan, K., Kaldor, J., Michelson, S., Kooburat, T., Anbudurai, A., Clark, M., Gogia, K., Cheng, L., Christensen, B., Gartrell, A., Khutornenko, M., Kulkarni, S., Pawlowski, M., Pelkonen, T., Rodrigues, A., Tibrewal, R., Venkatesan, V., and Zhang, P.}
+\newblock Twine: A unified cluster management system for shared infrastructure.
+\newblock In {\em 14th USENIX Symposium on Operating Systems Design and Implementation (OSDI 20)\/} (Nov. 2020), USENIX Association, pp.~787--803.
+
+\bibitem{borg}
+{\sc Verma, A., Pedrosa, L., Korupolu, M.~R., Oppenheimer, D., Tune, E., and Wilkes, J.}
+\newblock Large-scale cluster management at {Google} with {Borg}.
+\newblock In {\em Proceedings of the European Conference on Computer Systems (EuroSys)\/} (Bordeaux, France, 2015).
 
 \end{thebibliography}

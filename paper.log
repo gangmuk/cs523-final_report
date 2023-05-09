@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.1)  7 MAY 2023 16:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.1)  8 MAY 2023 19:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -800,20 +800,46 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
  (./abstract.tex) (./introduction.tex) (./Background.tex
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/it' will be
 (Font)              scaled to size 10.0pt on input line 5.
+
+
+Package natbib Warning: Citation `borg' on page 1 undefined on input line 5.
+
+
+Package natbib Warning: Citation `omega' on page 1 undefined on input line 5.
+
+
+Package natbib Warning: Citation `kubernetes' on page 1 undefined on input line 5.
+
+
+Package natbib Warning: Citation `twine' on page 1 undefined on input line 5.
+
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
-(Font)              scaled to size 10.0pt on input line 6.
+(Font)              scaled to size 10.0pt on input line 18.
 ) (./case_study.tex
 Overfull \hbox (58.339pt too wide) in paragraph at lines 6--22
  [][] 
  []
 
-[1.1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertine/lbtn_nh77jq.enc}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertine/lbtn_25tcsq.enc}
+
+Underfull \vbox (badness 1221) has occurred while \output is active []
+
+
+Underfull \vbox (badness 2073) has occurred while \output is active []
+
+ [1.1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertine/lbtn_nh77jq.enc}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertine/lbtn_25tcsq.enc}
 
 {/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertine/lbtn_ki75ao.enc}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertine/lbtn_7grukw.enc}]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 65.
- [2.2] [3.3]
-<figure/num_pod.pdf, id=48, 446.66875pt x 431.6125pt>
+(Font)              scaled to size 8.0pt on input line 61.
+ [2.2]
+Underfull \vbox (badness 2698) has occurred while \output is active []
+
+ [3.3]
+Underfull \vbox (badness 2698) has occurred while \output is active []
+
+<figure/num_pod.pdf, id=46, 446.66875pt x 431.6125pt>
 File: figure/num_pod.pdf Graphic file (type pdf)
 <use figure/num_pod.pdf>
 Package pdftex.def Info: figure/num_pod.pdf  used on input line 91.
@@ -822,22 +848,31 @@ Package pdftex.def Info: figure/num_pod.pdf  used on input line 91.
 
 Class acmart Warning: A possible image without description on input line 94.
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 ) (./related_work.tex
+
+Package natbib Warning: Citation `chaosengineering' on page 4 undefined on input line 6.
+
 
 Package natbib Warning: Citation `chaosmesh' on page 4 undefined on input line 6.
 
 
-Package natbib Warning: Citation `chaosmonkey' on page 4 undefined on input line 7.
+Package natbib Warning: Citation `chaosmonkey' on page 4 undefined on input line 6.
 
 
-Package natbib Warning: Citation `sieve' on page 4 undefined on input line 10.
+Package natbib Warning: Citation `chaoskube' on page 4 undefined on input line 6.
+
+
+Package natbib Warning: Citation `kubemonkey' on page 4 undefined on input line 6.
+
+
+Package natbib Warning: Citation `pumba' on page 4 undefined on input line 6.
+
+
+Package natbib Warning: Citation `sieve' on page 4 undefined on input line 9.
 
 ) (./discussion.tex
 ./discussion.tex:1: Misplaced alignment tab character &.
-<argument> ...orHref {section*.25}Model checking &
+<argument> ...orHref {section*.24}Model checking &
                                                    formal verification
 l.1 \section
             {Discussion}
@@ -848,18 +883,19 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-) (./conclusion.tex) (./metadata.tex) (./paper.bbl)
+) (./conclusion.tex) (./metadata.tex [4.4 <./figure/num_pod.pdf>]) (./paper.bbl
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/sc' will be
+(Font)              scaled to size 8.0pt on input line 28.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
+(Font)              scaled to size 8.0pt on input line 30.
+)
 
 Package natbib Warning: There were undefined citations.
 
 
 Class acmart Warning: Some images may lack descriptions.
 
-
-Package balance Warning: You have called \balance in second column
-(balance)                Columns might not be balanced.
-
-[4.4 <./figure/num_pod.pdf>] (./paper.aux
+[5.5{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertine/lbtn_ncsllp.enc}] (./paper.aux
 
 Package natbib Warning: Citation(s) may have changed.
 (natbib)                Rerun to get citations correct.
@@ -875,21 +911,21 @@ Package rerunfilecheck Warning: File `paper.out' has changed.
 
 Package rerunfilecheck Info: Checksums for `paper.out':
 (rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  DA2F0A32138E47AB07A199B585797684;937.
+(rerunfilecheck)             After:  08960A8D5BAA1E4A70783ED6845A9C82;937.
  ) 
 Here is how much of TeX's memory you used:
- 20212 strings out of 476025
- 325619 string characters out of 5790018
- 1881388 words of memory out of 5000000
- 39804 multiletter control sequences out of 15000+600000
- 619461 words of font info for 265 fonts, out of 8000000 for 9000
+ 20337 strings out of 476025
+ 328463 string characters out of 5790018
+ 1880388 words of memory out of 5000000
+ 39839 multiletter control sequences out of 15000+600000
+ 636118 words of font info for 318 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 90i,12n,131p,1725b,553s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,12n,131p,1725b,560s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/libertine/LinBiolinumT.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/libertine/LinLibertineTB.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/libertine/LinLibertineTBI.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/libertine/LinLibertineTI.pfb>
-Output written on paper.pdf (4 pages, 378251 bytes).
+Output written on paper.pdf (5 pages, 405142 bytes).
 PDF statistics:
- 124 PDF objects out of 1000 (max. 8388607)
- 95 compressed objects within 1 object stream
- 41 named destinations out of 1000 (max. 500000)
- 53266 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 151 PDF objects out of 1000 (max. 8388607)
+ 119 compressed objects within 2 object streams
+ 51 named destinations out of 1000 (max. 500000)
+ 61458 words of extra memory for PDF output out of 61914 (max. 10000000)
 

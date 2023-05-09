@@ -1,15 +1,270 @@
-@inproceedings{Dijkstra:SOSP:1967,
-  author = {Edsger W. Dijkstra},
-  title = "{The Structure of the ``THE'' Multiprogramming System}",
-  booktitle = {Proceedings of the 1st ACM Symposium on Operating System Principles (SOSP'67)},
-  year = {1967},
-  month = OCT,
+
+# Chaos engineering
+
+@misc{chaosmesh,
+  title = {{Chaos mesh}, a solution for system resiliency on Kubernetes.},
+  howpublished = {\url{https://github.com/chaos-mesh/chaos-mesh}},
+  year = 2020
+}
+@misc{chaoskube,
+  title = {{Chaos kube}, periodically kills random pods in your Kubernetes cluster.},
+  howpublished = {\url{https://github.com/linki/chaoskube}},
+  year = 2020
+}
+@misc{chaosmonkey,
+  title = {{Chaos monkey}},
+  howpublished = {\url{https://github.com/Netflix/chaosmonkey}},
+  year = 2020
+}
+@misc{kubemonkey,
+  title = {{Kube monkey}, periodically kills random pods in your Kubernetes cluster.},
+  howpublished = {\url{https://github.com/asobti/kube-monkey}},
+  year = 2020
+}
+@misc{pumba,
+  title = {{Pumba}, chaos testing tool for Docker.},
+  howpublished = {\url{https://github.com/alexei-led/pumba}},
+  year = 2020
+}
+@ARTICLE{chaosengineering,
+  author={Basiri, Ali and Behnam, Niosha and de Rooij, Ruud and Hochstein, Lorin and Kosewski, Luke and Reynolds, Justin and Rosenthal, Casey},
+  journal={IEEE Software}, 
+  title={Chaos Engineering}, 
+  year={2016},
+  volume={33},
+  number={3},
+  pages={35-41},
+  doi={10.1109/MS.2016.60}
 }
 
 
+# Kubernetes
+@misc{kubecomponents,
+  title = {{Kubernets components}},
+  howpublished = {\url{https://kubernetes.io/docs/concepts/overview/components/}},
+  year = 2023
+}
+@misc{controller,
+  title = {{Kubernets controller}},
+  howpublished = {\url{https://kubernetes.io/docs/concepts/architecture/controller/}},
+  year = 2023
+}
+@misc{deployment,
+  title = {{Kubernets Deployment controller}},
+  howpublished = {\url{https://kubernetes.io/docs/concepts/workloads/controllers/deployment/}},
+  year = 2023
+}
+@misc{deployment,
+  title = {{}},
+  howpublished = {\url{}},
+  year = 2023
+}
+@misc{kubelet,
+  title = {{Kubernetes kubelet controller}},
+  howpublished = {\url{https://kubernetes.io/docs/reference/command-line-tools-reference/kubelet/}},
+  year = 2023
+}
+@misc{daemonset,
+  title = {{Kubernetes daemonset controller}},
+  howpublished = {\url{https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/}},
+  year = 2023
+}
 
-@misc{chaosmesh,
-  title = {{Chaos mesh}},
-  howpublished = {\url{https://chaos-mesh.org}},
+@misc{descheduler,
+  title = {{Kubernetes descheduler controller}},
+  howpublished = {\url{https://github.com/kubernetes-sigs/descheduler}},
+  year = 2023
+}
+@misc{scheduler,
+  title = {{Kubernetes scheduler controller}},
+  howpublished = {\url{https://kubernetes.io/docs/concepts/scheduling-eviction/kube-scheduler/}},
+  year = 2023
+}
+@misc{metricsserver,
+  title = {{Kubernetes metrics server}},
+  howpublished = {\url{https://github.com/kubernetes-sigs/metrics-server}},
+  year = 2023
+}
+@misc{hpa,
+  title = {{Kubernetes Horizontal Pod Autoscaler controller}},
+  howpublished = {\url{https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/}},
+  year = 2023
+}
+
+# Cluster management
+@article{googlecluster,
+title	= {Borg, Omega, and  Kubernetes},
+author	= {Brendan Burns and Brian Grant and David Oppenheimer and Eric Brewer and John Wilkes},
+year	= {2016},
+URL	= {http://queue.acm.org/detail.cfm?id=2898444},
+journal	= {ACM Queue},
+pages	= {70--93},
+volume	= {14}
+}
+@inproceedings{borg,
+title	= {Large-scale cluster management at {Google} with {Borg}},
+author	= {Abhishek Verma and Luis Pedrosa and Madhukar R. Korupolu and David Oppenheimer and Eric Tune and John Wilkes},
+year	= {2015},
+booktitle	= {Proceedings of the European Conference on Computer Systems (EuroSys)},
+address	= {Bordeaux, France}
+}
+
+@inproceedings{omega,
+author = {Schwarzkopf, Malte and Konwinski, Andy and Abd-El-Malek, Michael and Wilkes, John},
+title = {Omega: Flexible, Scalable Schedulers for Large Compute Clusters},
+year = {2013},
+isbn = {9781450319942},
+url = {https://doi.org/10.1145/2465351.2465386},
+doi = {10.1145/2465351.2465386},
+booktitle = {Proceedings of the 8th ACM European Conference on Computer Systems},
+keywords = {cluster scheduling, optimistic concurrency control},
+series = {EuroSys '13}
+}
+@misc{kubernetes,
+  title = {{Kubernetes}},
+  howpublished = {\url{https://kubernetes.io/docs/concepts/overview/}},
+  year = 2023
+}
+
+@inproceedings {twine,
+author = {Chunqiang Tang and Kenny Yu and Kaushik Veeraraghavan and Jonathan Kaldor and Scott Michelson and Thawan Kooburat and Aravind Anbudurai and Matthew Clark and Kabir Gogia and Long Cheng and Ben Christensen and Alex Gartrell and Maxim Khutornenko and Sachin Kulkarni and Marcin Pawlowski and Tuomas Pelkonen and Andre Rodrigues and Rounak Tibrewal and Vaishnavi Venkatesan and Peter Zhang},
+title = {Twine: A Unified Cluster Management System for Shared Infrastructure},
+booktitle = {14th USENIX Symposium on Operating Systems Design and Implementation (OSDI 20)},
+year = {2020},
+isbn = {978-1-939133-19-9},
+pages = {787--803},
+url = {https://www.usenix.org/conference/osdi20/presentation/tang},
+publisher = {USENIX Association},
+month = nov,
+}
+
+
+# Model checking
+@inproceedings {samc,
+author = {Tanakorn Leesatapornwongsa and Mingzhe Hao and Pallavi Joshi and Jeffrey F. Lukman and Haryadi S. Gunawi},
+title = {{SAMC}: {Semantic-Aware} Model Checking for Fast Discovery of Deep Bugs in Cloud Systems},
+booktitle = {11th USENIX Symposium on Operating Systems Design and Implementation (OSDI 14)},
+year = {2014},
+isbn = { 978-1-931971-16-4},
+address = {Broomfield, CO},
+pages = {399--414},
+url = {https://www.usenix.org/conference/osdi14/technical-sessions/presentation/leesatapornwongsa},
+publisher = {USENIX Association},
+month = oct,
+}
+
+# Testing
+@inproceedings{morpheus,
+author = {Yuan, Xinhao and Yang, Junfeng},
+title = {Effective Concurrency Testing for Distributed Systems},
+year = {2020},
+isbn = {9781450371025},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3373376.3378484},
+doi = {10.1145/3373376.3378484},
+booktitle = {Proceedings of the Twenty-Fifth International Conference on Architectural Support for Programming Languages and Operating Systems},
+pages = {1141–1156},
+numpages = {16},
+keywords = {partial-order reduction, conflict analysis, partial order sampling, randomized testing, distributed systems},
+location = {Lausanne, Switzerland},
+series = {ASPLOS '20}
+}
+
+@inproceedings {ctest,
+author = {Xudong Sun and Runxiang Cheng and Jianyan Chen and Elaine Ang and Owolabi Legunsen and Tianyin Xu},
+title = {Testing Configuration Changes in Context to Prevent Production Failures},
+booktitle = {14th USENIX Symposium on Operating Systems Design and Implementation (OSDI 20)},
+year = {2020},
+isbn = {978-1-939133-19-9},
+pages = {735--751},
+url = {https://www.usenix.org/conference/osdi20/presentation/sun},
+publisher = {USENIX Association},
+month = nov,
+}
+@article{randomtest,
+author = {Ozkan, Burcu Kulahcioglu and Majumdar, Rupak and Niksic, Filip and Befrouei, Mitra Tabaei and Weissenbacher, Georg},
+title = {Randomized Testing of Distributed Systems with Probabilistic Guarantees},
+year = {2018},
+issue_date = {November 2018},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {2},
+number = {OOPSLA},
+url = {https://doi.org/10.1145/3276530},
+doi = {10.1145/3276530},
+journal = {Proc. ACM Program. Lang.},
+month = {oct},
+articleno = {160},
+numpages = {28},
+keywords = {online chain partitioning, random testing, hitting families, partially ordered sets, distributed systems}
+}
+
+# Distributed tracing & monitoring
+@misc{jaeger,
+  title = {{Jaeger} - a Distributed Tracing System},
+  howpublished = {\url{https://github.com/jaegertracing/jaeger}},
   year = 2020
+}
+@misc{prometheus,
+  title = {{Prometheus} - a systems and service monitoring system},
+  howpublished = {\url{https://github.com/prometheus/prometheus}},
+  year = 2020
+}
+@inproceedings {pivot,
+author = {Jonathan Mace and Ryan Roelke and Rodrigo Fonseca},
+title = {Pivot Tracing: Dynamic Causal Monitoring for Distributed Systems},
+booktitle = {2016 USENIX Annual Technical Conference (USENIX ATC 16)},
+year = {2016},
+address = {Denver, CO},
+url = {https://www.usenix.org/conference/atc16/technical-sessions/presentation/mace},
+publisher = {USENIX Association},
+month = jun,
+}
+
+@inproceedings{flymc,
+author = {Lukman, Jeffrey F. and Ke, Huan and Stuardo, Cesar A. and Suminto, Riza O. and Kurniawan, Daniar H. and Simon, Dikaimin and Priambada, Satria and Tian, Chen and Ye, Feng and Leesatapornwongsa, Tanakorn and Gupta, Aarti and Lu, Shan and Gunawi, Haryadi S.},
+title = {FlyMC: Highly Scalable Testing of Complex Interleavings in Distributed Systems},
+year = {2019},
+isbn = {9781450362818},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3302424.3303986},
+doi = {10.1145/3302424.3303986},
+booktitle = {Proceedings of the Fourteenth EuroSys Conference 2019},
+articleno = {20},
+numpages = {16},
+keywords = {Availability, Reliability, Software Model Checking, Distributed Concurrency Bugs, Distributed Systems},
+location = {Dresden, Germany},
+series = {EuroSys '19}
+}
+
+@article{traceawaretesting,
+author = {Ozkan, Burcu Kulahcioglu and Majumdar, Rupak and Oraee, Simin},
+title = {Trace Aware Random Testing for Distributed Systems},
+year = {2019},
+issue_date = {October 2019},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {3},
+number = {OOPSLA},
+url = {https://doi.org/10.1145/3360606},
+doi = {10.1145/3360606},
+journal = {Proc. ACM Program. Lang.},
+month = {oct},
+articleno = {180},
+numpages = {29},
+keywords = {distributed systems, hitting families, partial order reduction, random testing}
+}
+@inproceedings {sieve,
+author = {Xudong Sun and Wenqing Luo and Jiawei Tyler Gu and Aishwarya Ganesan and Ramnatthan Alagappan and Michael Gasch and Lalith Suresh and Tianyin Xu},
+title = {Automatic Reliability Testing For Cluster Management Controllers},
+booktitle = {16th USENIX Symposium on Operating Systems Design and Implementation (OSDI 22)},
+year = {2022},
+isbn = {978-1-939133-28-1},
+address = {Carlsbad, CA},
+pages = {143--159},
+url = {https://www.usenix.org/conference/osdi22/presentation/sun},
+publisher = {USENIX Association},
+month = jul,
 }

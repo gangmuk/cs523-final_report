@@ -1132,11 +1132,11 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/libertine/LinLibertine
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/public/libertine/LinLibertineTBI-tlf-t1.vf
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/libertine/LinLibertineTBI-tlf-t1--base.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertine/lbtn_ki75ao.enc
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/public/libertine/LinLibertineTB-tlf-t1.vf
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/libertine/LinLibertineTB-tlf-t1--base.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/public/libertine/LinLibertineTI-tlf-t1.vf
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/libertine/LinLibertineTI-tlf-t1--base.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertine/lbtn_7grukw.enc
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/public/libertine/LinLibertineTB-tlf-t1.vf
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/libertine/LinLibertineTB-tlf-t1--base.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/public/libertine/LinLibertineT-tlf-t1.vf
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/libertine/LinLibertineT-tlf-t1--base.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/libertine/LinBiolinumT-tlf-t1.tfm
@@ -1179,6 +1179,13 @@ INPUT ./paper.bbl
 INPUT paper.bbl
 INPUT ./paper.bbl
 INPUT paper.bbl
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/libertine/LinLibertineT-tlf-sc-t1.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/libertine/LinLibertineTI-tlf-t1.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/public/libertine/LinLibertineT-tlf-sc-t1.vf
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/libertine/LinLibertineT-tlf-sc-t1--base.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertine/lbtn_ncsllp.enc
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/public/libertine/LinLibertineTI-tlf-t1.vf
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/libertine/LinLibertineTI-tlf-t1--base.tfm
 INPUT paper.aux
 INPUT ./paper.out
 INPUT ./paper.out
