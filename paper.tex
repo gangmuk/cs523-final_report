@@ -4,10 +4,12 @@
 \renewcommand\footnotetextcopyrightpermission[1]{}
 
 \pagestyle{plain} 
-
+\usepackage{subfig}
+\usepackage{graphicx}
+\usepackage{subcaption}
 \begin{document}
 
-\title{Your Very Nice Project Title}
+\title{A Failure Study On Multi-Controller Failures in Cluster Management System}
 
 \author{Gangmuk Lim}
 \affiliation{
@@ -23,8 +25,10 @@
 \input{introduction}
 \input{Background}
 \input{case_study}
+\input{solution}
+\input{why_happens.tex}
 \input{related_work}
-\input{discussion}
+% \input{discussion}
 \input{conclusion}
 \input{metadata}
 \bibliographystyle{acm}

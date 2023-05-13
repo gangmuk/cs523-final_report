@@ -1,0 +1,59 @@
+This is BibTeX, Version 0.99d (TeX Live 2023)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: paper.aux
+The style file: acm.bst
+Database file #1: ref.bib
+Warning--to sort, need author or key in kubernetes
+Warning--to sort, need author or key in etcd
+Warning--to sort, need author or key in zookeeper
+Warning--to sort, need author or key in hpa
+Warning--to sort, need author or key in s3_failure
+Warning--to sort, need author or key in deployment
+Warning--to sort, need author or key in kubelet
+Warning--to sort, need author or key in chaosmesh
+Warning--to sort, need author or key in chaosmonkey
+Warning--to sort, need author or key in chaoskube
+Warning--to sort, need author or key in kubemonkey
+Warning--to sort, need author or key in pumba
+You've used 23 entries,
+            2253 wiz_defined-function locations,
+            632 strings with 8245 characters,
+and the built_in function-call counts, 7414 in all, are:
+= -- 669
+> -- 409
+< -- 0
++ -- 174
+- -- 150
+* -- 557
+:= -- 1100
+add.period$ -- 57
+call.type$ -- 23
+change.case$ -- 144
+chr.to.int$ -- 0
+cite$ -- 35
+duplicate$ -- 278
+empty$ -- 621
+format.name$ -- 150
+if$ -- 1604
+int.to.chr$ -- 0
+int.to.str$ -- 23
+missing$ -- 11
+newline$ -- 106
+num.names$ -- 22
+pop$ -- 219
+preamble$ -- 1
+purify$ -- 121
+quote$ -- 0
+skip$ -- 216
+stack$ -- 0
+substring$ -- 270
+swap$ -- 80
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 92
+warning$ -- 12
+while$ -- 34
+width$ -- 25
+write$ -- 211
+(There were 12 warnings)

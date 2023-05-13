@@ -1,4 +1,7 @@
 \begin{abstract}
 
-    
+\footnote{This work is done with collaboration with Bingzhe Liu in UIUC and Brighten Godfrey in UIUC.}
+Modern cluster management system is composed of a collection of loosely coupled control components. They are independent and do their job without being directed commanded by other control component on the surface level. However, once you go one level deeper, they are directly or indirectly interacting with each other.
+In this paper, we will deeply understand how \textbf{multiple controllers} in modern cluster manager can cause pathological or non-optimal behavior. We reproduced 10 failure cases involving multiple controllers and each failure is caused by different combination of controllers. The detailed failure analysis raises the red flag to users and explain how and why they occur to help them to get sense of what multi-controller failures are. Furthermore, based on what is observed in our failure reproduction, we suggest some promising solution to claim that we need additional layer to predict and prevent potential multi-controller failures before it cracks the cluster.
+
 \end{abstract}

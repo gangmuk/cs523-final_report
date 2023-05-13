@@ -3,9 +3,13 @@
 
 
 \paragraph*{Chaos engineering}
-Chaos engineering ~\cite{chaosengineering}, ~\cite{chaosmesh}, ~\cite{chaosmonkey}, ~\cite{chaoskube}, ~\cite{kubemonkey}, ~\cite{pumba}.
+Chaos engineering ~\cite{chaosengineering, chaosmesh,chaosmonkey,chaoskube,kubemonkey,pumba} builds the more confidence in enduring tumultuous situation by running experiments in a way that could be a source of crashing the system. One example pattern is randomly terminating arbitrary instances such as pod in kubernetes. However, multi-controller failures are not triggered by such faults in the cluster. They cannot be revealed by chaos engineering.
 
 \paragraph*{Testing}
-There exists a long history in testing distributed system. Compared to Sieve~\cite{sieve}, multi-controller have two distinctive differences. First, it is Sieve only focused on a single controller failure. It is not able to test cases multi-controllers are involved. Second, the primary goal of Sieve is to find actual bugs in the system with precise fault injection technique. Multi-controller failure cases presented in this paper are not defined as bug even if it exhibits pathological behavior.
+There exists a long history in testing distributed system ~\cite{flymc,ctest,morpheus,traceawaretesting,randomtest}. The most related testing tool is Sieve~\cite{sieve} utilizing precise fault injection technique. However, there are two key difference. First, it is Sieve only focused on a single controller failure. It is not able to test cases that multi-controllers are involved. Second, the primary goal of Sieve is to find actual bugs in the system with precise fault injection technique. In contrast, the multi-controller failure cases presented in this paper are not strictly defined as bugs even if it exhibits pathological behavior. Hence, these failures will not be detected and cannot be resolved by bug fix patch.
 
-\paragraph*{Model checking & formal verification}
+\paragraph*{Model checking}
+Model checking~\cite{spin} is technique that automatically verifies if the model satisfies all the required properties. The system can be modeled and the tools are going to cover all the possible combination of execution path. It could be a promising solution to judge if given configuration could put the system in undesirable status. 
+This approach has several challenges. One is modeling the system correctly so that it can capture how the program works. It is also not one time effort. When a newer version is released, the model should be updated accordingly to keep high fidelity. 
+Second is defining properties. It depends on which properties it wants to verify. Infinitely oscillating number of pods could be one example of liveness property for Kubernetes. 
+The model checking can be the promising way to find the multi-controller failures in a specific set of configuration and furthur can explain the source of the failure.

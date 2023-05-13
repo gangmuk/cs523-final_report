@@ -1,19 +1,7 @@
 \section{Background}
 \label{sec:background}
 
-\paragraph*{Kubernetes}
-There have been many cluster management system such as Borg~\cite{borg}, Omega~\cite{omega}, Kubernetes~\cite{kubernetes} from Google and Twine~\cite{twine} from Meta. In this paper, we will focus on Kubernetes to reproduce and analyze exmaple failure cases.
-Kubernetes cluster is 
-Kubelet.
-Deployment
-Scheduler
-Descheduler
-HPA
-
-
-api-server / etcd
-
-\subparagraph*{Reconciliation}
-
-Figure <Architecture of Kubernetes>
-
+There have been many cluster management system such as Borg~\cite{borg}, Omega~\cite{omega}, Kubernetes~\cite{kubernetes} from Google and Twine~\cite{twine} from Meta. These systems consist of multiple controllers which play a role in administering a part of the cluster management. Each controller directly or indirectly interacts with each other by reading from and writing to consistent shared key-value store to keep cluster in a certain desirable status~\cite{etcd, zookeeper}. The objects in key-value store represents controllers as well as all other components comprising the cluster.
+A controller has its own defined desirable status regarding the dedicated role. The controller periodically checks the cluster status whether it derails from the desirable state. If it does, then it takes appropriate action. This execution model is called \textit{reconciliation}. Each controller has its own reconciliation logic, basically control loop and the desirable state is defined by the configuration given by Kubernetes user. 
+For example, \textit{Horizontal Pod Autoscaler (HPA)}~\cite{hpa} is autoscaling pods based on the target resource utilization along with the minimum and maximum number of pods. It periodically checks the number of pods and if the average resource utilization diverges from the target value, it will increase or decrease the number of pods within the min-max boundary.
+More details will be covered in each failure case study in section \ref{sec:case_study}

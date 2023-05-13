@@ -54,6 +54,11 @@
   howpublished = {\url{https://kubernetes.io/docs/concepts/workloads/controllers/deployment/}},
   year = 2023
 }
+@misc{deployment,
+  title = {{}},
+  howpublished = {\url{}},
+  year = 2023
+}
 @misc{kubelet,
   title = {{Kubernetes kubelet controller}},
   howpublished = {\url{https://kubernetes.io/docs/reference/command-line-tools-reference/kubelet/}},
@@ -133,25 +138,6 @@ publisher = {USENIX Association},
 month = nov,
 }
 
-# key-value store
-@misc{etcd,
-  title = {{Etcd, a distributed reliable key-value store for the most critical data of a distributed system}},
-  howpublished = {\url{https://github.com/etcd-io/etcd}},
-  year = 2020
-}
-
-@misc{zookeeper,
-  title = {{Zookeeper, a centralized service for maintaining configuration information, naming, providing distributed synchronization, and providing group services}},
-  howpublished = {\url{https://zookeeper.apache.org}},
-  year = 2020
-}
-
-# Failure case
-@misc{s3_failure,
-  title = {{S3 - Conflicting topology spread constraints}},
-  howpublished = {\url{https://kubernetes.io/docs/concepts/scheduling-eviction/topology-spread-constraints/#example-conflicting-topologyspreadconstraints}},
-  year = 2020
-}
 
 # Model checking
 @inproceedings {samc,
@@ -282,14 +268,3 @@ url = {https://www.usenix.org/conference/osdi22/presentation/sun},
 publisher = {USENIX Association},
 month = jul,
 }
-
-# model checking
-@ARTICLE{spin,
-  author={Holzmann, G.J.},
-  journal={IEEE Transactions on Software Engineering}, 
-  title={The model checker SPIN}, 
-  year={1997},
-  volume={23},
-  number={5},
-  pages={279-295},
-  doi={10.1109/32.588521}}
